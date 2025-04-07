@@ -10,7 +10,7 @@ SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(
     url=os.getenv('DB_HOST'),
     db=os.getenv('DB_NAME'))
 SQLALCHEMY_TRACK_MODIFICATIONS = False
-SECRET_KEY = jiyeoun1
+SECRET_KEY = b'\x81\x8d\xde\xf6\x80\x874:\xe0\xd0\xd5\xbc\x8d\xb8s\xb4'
 
 dictConfig({
     'version': 1,
